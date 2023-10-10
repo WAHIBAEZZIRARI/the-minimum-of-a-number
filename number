@@ -1,0 +1,18 @@
+Algorithme minimuma
+Variable
+Tableau T (10): entier
+i : entier
+min: entier
+Début
+Pour i <-- 0 à 9 pas 1 Faire
+Ecrire ("Donner l'élément ", i+1," : ")
+Lire (T(i))
+fin Pour
+min<-- T(0)
+Pour i <-- 1 à 9 pas 1 Faire
+Si min > T(i) alors
+min = T(i)
+fin Si
+fin Pour
+Ecrire ("Le minimum des éléments est :", min )
+Fin
